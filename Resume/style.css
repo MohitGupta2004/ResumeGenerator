@@ -1,0 +1,125 @@
+#resume-template{
+    /*display: none;*/
+    margin-top: 20px;
+    border: 2px solid black;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color:#7fddca ;
+}
+
+.container {
+max-width: 1000px; /* Adjust the maximum width as needed */
+height: 95vh; /* Add the maximum height property */
+margin: 0 auto;
+background-color: #ede2d4;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+border: 2px solid #333; /* Add border around the entire resume */
+display: flex;
+flex-wrap: wrap;
+overflow-y: auto; /* Add this property to make the container scrollable when content overflows */
+}
+
+.left-column,
+.right-column {
+    padding: 20px;
+    border-right: 2px solid #333; /* Add border between columns */
+}
+
+.left-column {
+    flex: 1; /* Adjusted to 1 for a 1:2 ratio with the right column */
+    text-align: center;
+}
+
+.left-column img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 24px;
+    margin-top: 10px;
+}
+#img1{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+#img2{
+    height: 30px;
+    width: 50px;
+}
+
+#img3{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+#img4{
+    height: 30px;
+    width: 30px;
+    margin-right: 17px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+.right-column {
+    flex: 2;
+}
+
+.objective {
+    margin-top: 20px;
+}
+
+.objective p {
+    font-style: italic;
+}
+
+.section-title {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills ul, .hobbies ul {
+    padding-left: 40px;
+}
+
+.work-experience .job {
+    margin-bottom: 20px;
+}
+
+.job-title {
+    font-weight: bold;
+}
+
+.job-date {
+    font-style: italic;
+}
+
+.job-description {
+    margin-top: 10px;
+}
+.print-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.print-button button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.print-button button:hover {
+    background-color: #2980b9;
+}
